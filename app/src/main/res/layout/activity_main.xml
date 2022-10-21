@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/purple"
+    tools:context=".MainActivity"
+
+    >
+    <TextView
+        android:id="@+id/txtTituloP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Lista"
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        android:textColor="@color/lightpurple"
+        />
+
+    <EditText
+        android:id="@+id/txtProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tarefa:"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/txtHoras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Horario:"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnInserir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inserir"
+        android:backgroundTint="@color/darkpurple"/>
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/lightpurple"
+        android:text="Lista de afazeres:"
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        />
+
+    <ListView
+        android:id="@+id/listViewProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+
+
+
+
+</LinearLayout>
